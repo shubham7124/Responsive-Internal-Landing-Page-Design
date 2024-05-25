@@ -1,0 +1,491 @@
+.navbar {
+   height: 75px;
+}
+
+.container-fluid {
+   /* border: 1px solid rgb(77, 76, 76); */
+}
+
+.heading {
+   padding-top: 200px;
+   justify-content: center;
+
+}
+
+.homeHeading,
+.cont2Heading,
+.c4heading {
+   font-size: 40px;
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont2Heading {
+   padding-top: 100px;
+}
+
+.cont2Paragaph,
+.homeParagraph,
+.c3c3p {
+   font-size: 25px;
+   color: rgb(58, 57, 57);
+   justify-content: left;
+   color: #333333;
+   font-family: Open Sans, 'Source Sans Pro';
+}
+
+.button {
+   width: 250px;
+   height: 65px;
+   font-size: 25px;
+}
+
+.border {
+   border: 2px solid black;
+}
+
+.c3img {
+   flex-shrink: 0;
+   margin-bottom: 0.8rem;
+   width: 50px;
+   height: 50px;
+   object-fit: contain;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 120px;
+
+}
+
+.c3heading {
+
+   font-size: 3.2rem;
+   font-family: Montserrat, 'Source Sans Pro';
+   white-space: nowrap;
+   margin-bottom: 1.6rem;
+   font-weight: 700;
+   line-height: 1.5;
+   color: #000c19;
+   flex-shrink: 0;
+}
+
+.card {
+   height: 250px;
+}
+
+.cardp {
+   font-size: 15px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   justify-items: auto;
+}
+
+.c3btn {
+   align-items: center;
+   ;
+}
+
+.card:haver {
+   box-shadow: #000c19;
+}
+
+.c4list {
+   height: 110px;
+   border-radius: 10px;
+}
+
+.box {
+   margin-left: 95px;
+   width: 65em;
+   height: 450px;
+   ;
+}
+
+.boximg {
+   background-color: gray;
+   width: 500px;
+   height: 370px;
+   margin-top: 40px;
+   margin-left: 60px;
+   border-radius: 10px;
+}
+
+.box-data {
+   width: 450px;
+   height: 75px;
+   margin-top: 99px;
+}
+
+.boximg2 {
+   width: 75px;
+   margin-left: 20px;
+
+}
+
+.boxp {
+
+   width: 400px;
+   margin-top: 25px;
+   margin-left: 20px;
+   text-align: justify;
+   font-size: 17px;
+}
+
+.boxButton {
+   margin-top: 40px;
+   margin-left: 35em;
+   white-space: 150px;
+}
+
+.botb {
+   width: 50px;
+   height: 50px;
+   border: 1px solid blue;
+   border-radius: 66px;
+   background-color: transparent;
+
+}
+
+/* Custom CSS for responsiveness */
+@media (max-width: 576px) {
+
+   /* navBar */
+   body{
+    overflow-x: hidden;
+    
+   }
+   
+   .navbar {
+      width: 100%;
+      height: auto;
+      font-size: 12px;
+      flex: content;
+      flex-direction: column;
+
+   }
+
+   .btn {
+      width: auto;
+      height: auto;
+      font-size: 12px;
+   }
+
+   /* Home Page */
+   .home {
+      
+      justify-content: center;
+
+
+   }
+
+   .row {
+      flex: auto;
+      flex-direction: column-reverse;
+      width: 100%;
+      height: 100;
+      left: 160px;
+   }
+
+   .homeimg {
+      margin-left: 30px;
+      width: 100%;
+      height: 100%;
+   }
+
+   .heading {
+      flex: content;
+      flex-direction: row;
+      size: 10px;
+   }
+
+   .homeHeading {
+      margin-top: -109px;
+      font-size: 20px;
+   }
+
+   .homeParaggh1 {
+      font-size: 15px;
+      margin-top: 50px;
+   }
+
+   .homeBtn {
+      width: 100%;
+      height: 30px;
+      font-size: 15px;
+
+   }
+
+   .homeBtnh3 {
+      margin-top: -10px;
+      font-size: 15px;
+   }
+
+
+   .cont2Heading,.cont2Heading,.c4heading,.cont2Heading,.c3heading{
+      width:100%;
+      font-size: 26px;
+      flex: content;
+      flex-direction: column;
+     }
+     .homeParagraph,.cont2Paragaph,.homeParagraph,.container-fluid{
+      font-size: 20px;
+      justify-content: center;
+     }
+     .row2{
+      flex: content;
+      flex-direction:column;
+      width: 100%;
+   
+     }
+     .cont2Img{
+      width: 300px;
+      height: 250px;
+      margin-left: 50px;
+     }
+     .content2p{
+      width: 555px;
+      margin-left: 15px;
+      justify-content:space-around;
+     }
+     .cards3{
+      flex: content;
+      flex-direction: column 50%, 50%;
+      gap:10px;
+      width: 100%;
+      height: auto;
+    
+      
+     }
+
+     .card{
+     
+     width: 100cm;
+      
+      margin-left: 50px;
+     }
+     .imgc4{
+      width: 375px;
+      height: 300px;
+     margin-left: 15px;
+     }
+     .clist{
+      gap: 20px;
+      width: 420px;
+      margin-left: 5px;
+      
+     }
+     .cotent6{
+      margin-left: 25px;
+      width: 90%;
+      height: 200%;
+     }
+     .boximg{
+      width: 250px;
+      height: 180px;
+    
+     }
+     .boxButton{
+       margin-left:110px;
+       margin-bottom: 100px;
+     
+     }
+     .previous{
+      margin-left: 65px;
+      cursor: pointer  ;
+     }
+     .box-data{
+     
+      width: 300px;
+     
+     margin-left: 10px;
+     margin-top: 4px;
+    
+     }
+   
+    .c4list{
+      
+      height: 130px;
+    }
+    .boximg2{
+      width: 40px;
+      height: 40px;
+      margin-left: 140px;
+      margin-top: -50px;
+     ;
+    }
+    .boxp{
+      
+      width: 95%;
+    }
+    .profileHeading  {
+      margin-left: -20px;
+      position: absolute;
+      margin-top: -12px;
+      margin-left:55px;
+    }
+    
+  
+
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  
+   /* navBar */
+   body{
+      overflow-x: hidden;
+    
+     }
+     
+     .navbar {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        flex: content;
+        flex-direction: column;
+  
+     }
+  
+     .btn {
+        width: auto;
+        height: auto;
+        font-size: 12px;
+     }
+  
+     /* Home Page */
+     .home {
+        
+        justify-content: center;
+  
+  
+     }
+  
+     .row {
+        flex: auto;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100;
+   
+     }
+  
+     .homeimg {
+        margin-left: 30px;
+        width: 100%;
+        height: 100%;
+     }
+  
+     .heading {
+        flex: content;
+        flex-direction: row;
+        size: 20px;
+     }
+  
+     .homeHeading {
+        margin-top: -109px;
+        font-size: 30px;
+     }
+  
+     .homeParaggh1 {
+        font-size: 15px;
+        margin-top: 50px;
+     }
+  
+     .homeBtn {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+  
+     }
+  
+     .homeBtnh3 {
+        margin-top: -10px;
+        font-size: 15px;
+     }
+     .cont2Heading,.cont2Heading,.c4heading,.cont2Heading,.c3heading{
+      width:100%;
+      font-size: 26px;
+      flex: content;
+      flex-direction: column;
+     }
+     .homeParagraph,.cont2Paragaph,.homeParagraph,.container-fluid{
+      font-size: 20px;
+      justify-content: center;
+     }
+     .row2{
+      flex: content;
+      flex-direction:column;
+      width: 100%;
+   
+     }
+     .cont2Img{
+      width: 300px;
+      height: 250px;
+      margin-left: 105px;
+     }
+     .content2p{
+      width: 555px;
+      margin-left: 15px;
+      justify-content:space-around;
+     }
+     .cards3{
+      flex: content;
+      flex-direction: column 50%, 50%;
+      gap:10px;
+      width: 100%;
+      height: auto;
+    
+      
+     }
+
+     .card{
+     
+     width: 100cm;
+      
+      margin-left: 100px;
+     }
+     .imgc4{
+      width: 500px;
+      height: 300px;
+     margin-left: 15px;
+     }
+     .clist{
+      gap: 10px;
+      margin-left: 55px;
+     }
+     .cotent6{
+      margin-left: 25px;
+      width: 90%;
+      height: 200%;
+     }
+     .boximg{
+      width: 350px;
+      height: 250px;
+    
+     }
+     .boxButton{
+       margin-left:170px;
+       margin-bottom: 100px;
+     
+     }
+     .previous{
+      margin-left: 50px;
+      cursor: pointer  ;
+     }
+     .box-data{
+      width: 300px;
+      margin-top: 30px;
+     
+      margin-left: 110px;
+     }
+   
+    .c4list{
+      
+      height: 130px;
+    }
+    
+  
+ 
+}
+@media (min-width: 769px) {
+   body{
+      overflow-x: hidden;
+   }
+}
